@@ -1,0 +1,26 @@
+h1. DataXu: Seven Languages in Seven Weeks
+
+This repository holds the code exercises of all those at DataXu participating in the Seven Languages in Seven Weeks code-through.
+
+h2. How To Use:
+
+# If you do not already have a free GitHub account, please create one.
+# Email me (bspaulding@dataxu.com) with your github username, and I'll add you as a contributor.
+# Navigate to https://github.com/bspaulding/SevenLanguages and copy your ssh/read-write url.
+# Check out the code with "git clone #{your-read-write-url}"
+
+h2. Guidelines:
+
+# Place all your code in a directory named by your first initial and last name.
+# Use subdirectories for each language.
+# *Do not check in changes to other people's code!* That's just not helpful to anyone.
+
+h2. New to Git?
+
+To get pushing and pulling quickly, try "Everyday GIT With 20 Commands Or So":http://www.kernel.org/pub/software/scm/git/docs/everyday.html.
+
+Here are some other good git resources if you're interested in learning more:
+
+# "Git Homepage":http://git-scm.com/
+# "Git Documentation":http://git-scm.com/documentation
+# "Pragmatic Guide to Git":http://pragprog.com/titles/pg_git/pragmatic-guide-to-git
