@@ -1,6 +1,6 @@
 h1. Seven Languages in Seven Weeks
 
-This repository holds the code exercises for a group of people participating in the Seven Languages in Seven Weeks code-through.
+This project represents the exercises from Bruce Tate's book, "Seven Languages in Seven Weeks".
 
 h2. How To Use:
 
