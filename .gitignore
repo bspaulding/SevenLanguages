@@ -1,0 +1,30 @@
+# git-ls-files --others --exclude-from=.git/info/exclude
+# Lines that start with '#' are comments.
+# For a project mostly in C, the following would be a good set of
+# exclude patterns (uncomment them if you want to use them):
+# *.[oa]
+# *~
+
+# random temporary files
+*~
+\#*\#
+
+# intellij idea files.
+.idea
+*.iml
+
+# eclipse project files.
+.classpath
+.project
+.settings
+
+# generated maven/build directories.
+build
+target
+
+# temporary directories.
+tmp
+temp
+
+# mac 'desktop service store' file
+.DS_Store
