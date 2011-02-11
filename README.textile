@@ -1,11 +1,11 @@
-h1. DataXu: Seven Languages in Seven Weeks
+h1. Seven Languages in Seven Weeks
 
-This repository holds the code exercises of all those at DataXu participating in the Seven Languages in Seven Weeks code-through.
+This repository holds the code exercises for a group of people participating in the Seven Languages in Seven Weeks code-through.
 
 h2. How To Use:
 
 # If you do not already have a free GitHub account, please create one.
-# Email me (bspaulding@dataxu.com) with your github username, and I'll add you as a contributor.
+# Email Brad Spaulding with your github username, and he'll add you as a contributor.
 # Navigate to https://github.com/bspaulding/SevenLanguages and copy your ssh/read-write url.
 # Check out the code with "git clone #{your-read-write-url}"
 
