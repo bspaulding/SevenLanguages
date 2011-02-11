@@ -1,0 +1,22 @@
+Things to find (page 34):
+
+1) The RUBY API
+   http://ruby-doc.org
+
+2) Free online verion: Programming Ruby: The Pragmatic Programmer's Guide
+   http://ruby-doc.org/docs/ProgrammingRuby
+
+3) A method that substitutes part of a string
+   x = 'hello computer'
+   x['computer'] = 'world'
+
+   another option
+
+   x = 'hello computer'
+   x.gsub /[aeiou]/, '*'
+
+4) Information about ruby's regular expressions
+   http://ruby-doc.org/ruby-1.9/classes/Regexp.html
+
+5) Information about ruby's ranges
+   http://ruby-doc.org/ruby-1.9/classes/Range.html

@@ -1,0 +1,37 @@
+Things to find (page 47):
+
+1) Access a file with and without a block...
+   http://ruby-doc.org/core/classes/File.html#M000069
+   File#open() takes an optional code block.  
+   The same method can be used with and without blocks, resulting in 
+   different return values.
+
+2) http://ruby-doc.org/core/classes/Hash.html#M000762
+   Hash#to_a() translates directly to an Array, maintaining the grouping.
+   Hash#flatten() goes to a pure array; grouping is lost.
+   
+   For translating arrays to hashes, there is no way intrinsicly in the language.
+   >> x = [1,2,3,4]
+   => [1, 2, 3, 4]
+   >> Hash[x]
+   => {}
+   >> Hash[*x]
+   => {1=>2, 3=>4}
+   >> Hash[*x.collect{|i, a| [i,a]}.flatten]
+   => {1=>nil, 2=>nil, 3=>nil, 4=>nil}
+   >> x.fill {|a| [a, x[a]]}
+   => [[0, 1], [1, 2], [2, 3], [3, 4]]
+   >> Hash[x.fill {|a| [a, x[a]]}]
+   => {0=>[0, 1], 1=>[1, 2], 2=>[2, 3], 3=>[3, 4]}
+   >> Hash[x.fill {|a| [a, x[a]]}.flatten]
+   => {}
+   >> Hash[*x.fill {|a| [a, x[a]]}.flatten]
+   => {0=>0, 1=>2, 2=>2, 3=>4}
+
+   QUESTION: Why do we have to dereference the array?
+
+3) Can you iterate through a hash?
+   Hash#each() { |key, value| ... }
+
+4) Other common data structures arrays support:
+   Queues (Array#first() and Array#push())
