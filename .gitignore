@@ -8,6 +8,7 @@
 # random temporary files
 *~
 \#*\#
+.\#*
 
 # intellij idea files.
 .idea
