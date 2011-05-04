@@ -1,0 +1,11 @@
+Things to find (page 153):
+
+1) The Scala API
+   http://www.scala-lang.org/node/216
+
+2) A comparison of Java and Scala
+   http://tinyurl.com/3b7tjxl
+
+3) A discussion of val versus var
+   http://www.scala-lang.org/node/3390
+   http://www.google.com/search?client=safari&rls=en&q=scala+val+var&ie=UTF-8&oe=UTF-8
